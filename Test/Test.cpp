@@ -455,6 +455,7 @@ void Test::go(int& kolQFinished, int &kolPrav, int& b)
 	{
 		system("cls");
 		cout << endl;
+		cout << "Тест: " << name << " из категории: " << category << endl;
 		cout << "-------------------------------------------------------------------------------------------------" << endl;
 		cout << " Вопрос №" << nom++ << ". ";
 		x.printGo();
@@ -493,6 +494,7 @@ void Test::goOld(int kolQFin1, int kolPrav1, int b1, int& kolQFin2, int& kolPrav
 		{
 			system("cls");
 			cout << endl;
+			cout << "Тест: " << name << " из категории: " << category << endl;
 			cout << "-------------------------------------------------------------------------------------------------" << endl;
 			cout << " Вопрос №" << nom++ << ". ";
 			x.printGo();
